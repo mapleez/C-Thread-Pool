@@ -10,16 +10,6 @@ This is a minimal but fully functional threadpool implementation.
 The threadpool is under MIT license. Notice that this project took a considerable amount of work and sacrifice of my free time and the reason I give it for free (even for commercial use) is so when you become rich and wealthy you don't forget about us open-source creatures of the night. Cheers!
 
 
-## v2 Changes
-
-This is an updated and heavily refactored version of my original threadpool. The main things taken into consideration in this new version are:
-
-  * Synchronisation control from the user (pause/resume/wait)
-  * Thorough testing for memory leaks and race conditions
-  * Cleaner and more opaque API
-  * Smart polling - polling interval changes on-the-fly
-
-
 ## Run an example
 
 The library is not precompiled so you have to compile it with your project. The thread pool
